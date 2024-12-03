@@ -105,10 +105,10 @@ body{
 
 .technologies{
     background-color: var(--element-dark-bg-color);
-    /* min-height: 400px; */
+    min-height: 400px;
     border-radius: 8px;
     padding:  1rem ;
-    text-transform: capitalize;
+    min-height: 350px;
 }
 .technologies .icons{
     background-color: var(--element-dark-bg-color);
@@ -124,8 +124,26 @@ body{
 .education{
     background-color: var(--element-dark-bg-color);
     padding: 1rem;
+    font-size: 16px;
     border-radius: 8px;
     margin-bottom: 1rem;
+}
+.education .degree{
+    font-size: 1.2em;
+    margin-right: 0.7rem;
+}
+.education .grade{
+    font-size: 0.9em;
+    opacity: 0.7;
+    margin-right: 0.5rem;
+}
+.education .year{
+    font-size: 0.8em;
+}
+.education p{
+    opacity: 0.7;
+    font-size: 0.9em;
+    margin-block: 12px;
 }
 
 @media (min-width:600px) {
