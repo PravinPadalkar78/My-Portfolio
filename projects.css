@@ -1,7 +1,7 @@
 .project-card{
     display: grid;
     margin-block: 4rem;
-    padding: 8px;
+    padding: 8px 12px;
     margin-inline:auto;
     gap: 16px;
 }
