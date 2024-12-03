@@ -1,7 +1,7 @@
 .project-card{
     display: grid;
-    padding: 12px;
     margin-block: 4rem;
+    padding: 8px;
     margin-inline:auto;
     gap: 16px;
 }
@@ -11,11 +11,15 @@
     width: 100%;
     margin-inline:auto;
     border-radius: 4px;
+    overflow: hidden;
 }
 .project-info{
     background-color: var(--element-dark-bg-color,grey);
     padding: 16px;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .project-info h1{
     margin-top: 8px;
@@ -28,8 +32,11 @@
     margin-top:8px;
     padding: 8px 0;
     display: flex;
-    column-gap: 8px;
+    gap: 8px;
+    flex-wrap: wrap;
     justify-content: flex-start;
+    
+
 }
 .project-stack span{
     background-color: var(--element-light-bg-color) ;
@@ -45,16 +52,7 @@
     text-decoration: none;
     color: inherit;
 }
-@media (max-width:400px)
-{
-    .project-card{
-        padding: 4px;
-    }
-    .project-info{
-      padding: 4px;
-    }
-}
-@media (min-width:400px) and (max-width:800px)
+@media (max-width:800px)
 {
     .project-card{
         max-width: 400px;
@@ -81,11 +79,4 @@
         font-size: 0.9rem;
     }
 
-}
-
-@media (min-width:1000px)
-{
-    .project-stack span{
-        margin-top: 24px;
-    }
 }
