@@ -114,9 +114,9 @@ a{
     background-color: var(--element-dark-bg-color);
     display: grid;
     margin-top: 32px;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-template-rows:repeat(4,25%);
-    gap: 1rem;
+    gap: 1.5rem 1rem;
 }
 .icons i{
     margin-inline: auto;
@@ -150,8 +150,8 @@ a{
     .grid{
         margin-top: 30px;
         grid-template-columns: 1fr 1fr 1fr;
-        /* grid-template-rows: 200px 120px 130px 300px; */
-        grid-template-rows:  0.2fr 0.1fr 0.3fr 0.5fr ;
+        grid-template-rows: 200px 120px 130px 300px;
+        /* grid-template-rows:  0.2fr 0.1fr 0.3fr 0.5fr ; */
        
     }
     .intro{
